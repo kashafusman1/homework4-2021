@@ -24,6 +24,8 @@ caption{
 
 /*END STARTER CODE*/
 
+@import url('https://fonts.googleapis.com/css?family=Andika&display=swap');
+
 body {
   color: black;
   font-family: 'Andika', sans-serif;
@@ -33,63 +35,57 @@ body {
   background-position: center;
   background-image: url('../images/pigeon-background.JPEG');
   background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
-main {
-  margin-bottom: 100px;
-}
 
 h1 {
-  color: #8000FF;
+  color: #B21F50;
   font-size: 2em;
-  line-height: 1.5;
+  line-height: 2;
   text-align: center;
 }
 
-caption {
-  margin:5px 0px;
-}
 
 p {
   color: black;
-  font-size: 15x;
-  padding-top: 10px;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
 a {
   font-size: 16px;
   color: #B21F50;
-  text-decoration-style: wavy;
-  text-decoration-line: underline;
+  text-decoration: underline wavy;
 }
 
 a:focus{
-  border: 2px solid black;
+  border: 3px dashed #417243;
 }
 
 table {
-  border: 2px solid black;
-  border-radius: 15px;
-  border-spacing: 0px;
-  border-collapse: separate;
-  margin-left: auto;
-  margin-right: auto;
+  border: 3px solid black;
+  border-radius: 50px;
+  margin: 0 auto;
 }
 
 thead tr:first-child th.colhead:first-child {
-	border-top-left-radius: 15px;
+	border-top-left-radius: 50px;
 }
 	
 thead tr:first-child th.colhead:last-child {
-	border-top-right-radius: 15px;
+	border-top-right-radius: 50px;
 }
 	
-thead tr:last-child td:first-child {
-	border-bottom-left-radius: 15px;
+tbody tr:last-child th:first-child {
+	border-bottom-left-radius: 50px;
 }
 	
-thead tr:last-child td:last-child {
-	border-bottom-right-radius: 15px;
+tbody tr:last-child td:last-child {
+	border-bottom-right-radius: 50px ;
 }
 
 .colhead {
@@ -98,16 +94,23 @@ thead tr:last-child td:last-child {
   min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
+  vertical-align: auto;
+  
+
 }
 
 .rowhead {
-  border-top: 2px solid black;
+  border-top: 3px solid black;
+  border-collapse: collapse;
+  border-right: 2px black;
+
+  
 }
 
 td {
   padding: 15px;
   text-align: center;
-  border-top: 2px solid black;
+  border-top: 3px solid black;
 }
 
 tr:nth-child(even) {
@@ -120,6 +123,10 @@ tr:nth-child(odd) {
 
 tr:hover {
   background-color:rgba(126,8,32, 0.25);
+  visibility: visible;
+  border-radius: 10px;
+
+
 }
 
 /* I gave you the selector, but not the property-value pair. 
