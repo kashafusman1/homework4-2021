@@ -90,18 +90,20 @@ tbody tr:last-child td:last-child {
 }
 
 .colhead {
-  background-color: #7e0820;
+  background-color: #7e0825;
   color: white;
   min-width: 125px;
   text-transform: uppercase;
-  vertical-align: auto;
   padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .rowhead {
-  border-top: 3px solid black;
-  border-collapse: collapse;
-  border-right: 2px black;
+  border-top: 2px solid black;
+  /* border-collapse: collapse; */
+  border-right: 2px solid  black;
   padding-bottom: 10px;
   text-align: center;
   border-style: solid;
@@ -122,8 +124,7 @@ tbody tr:nth-child(odd) {
 }
 
 table tr:hover {
-  background-color:rgba(126,8,32, 0.25);
-  border-radius: 10px;
+  background-color:rgba(126,8,37, 0.25);
 }
 
 /* I gave you the selector, but not the property-value pair. 
