@@ -47,6 +47,7 @@ h1 {
 }
 
 
+
 p {
   color: black;
   font-size: 15px;
@@ -92,41 +93,37 @@ tbody tr:last-child td:last-child {
   background-color: #7e0820;
   color: white;
   min-width: 125px;
-  padding: 10px;
   text-transform: uppercase;
   vertical-align: auto;
-  
-
+  padding-top: 10px;
 }
 
 .rowhead {
   border-top: 3px solid black;
   border-collapse: collapse;
   border-right: 2px black;
-
-  
+  padding-bottom: 10px;
+  text-align: center;
+  border-style: solid;
 }
 
 td {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   border-top: 3px solid black;
 }
 
-tr:nth-child(even) {
-  background: grey;
+tbody tr:nth-child(even) {
+  background: #D1D1D1;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background: transparent;
 }
 
-tr:hover {
+table tr:hover {
   background-color:rgba(126,8,32, 0.25);
-  visibility: visible;
   border-radius: 10px;
-
-
 }
 
 /* I gave you the selector, but not the property-value pair. 
